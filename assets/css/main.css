@@ -2476,15 +2476,13 @@ input, select, textarea {
 
 /* Banner */
 
-	#banner {
+#banner {
 	position: relative;
-	background-image: url("tpttop.jpg"), url("tptbottom.jpg");
-	background-position: top center, bottom center;
-	background-repeat: no-repeat, no-repeat;
-	background-size: 100% auto, 100% auto;
+	background: none;
 	z-index: 1;
 	padding: 11em 0;
 }
+
 
 
 
