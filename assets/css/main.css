@@ -2481,10 +2481,11 @@ input, select, textarea {
 	background-image: url("tpttop.jpg"), url("tptbottom.jpg");
 	background-position: top center, bottom center;
 	background-repeat: no-repeat, no-repeat;
-	background-size: cover, cover;
+	background-size: 100% auto, 100% auto;
 	z-index: 1;
 	padding: 11em 0;
 }
+
 
 
 
