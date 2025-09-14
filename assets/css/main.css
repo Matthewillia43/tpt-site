@@ -2488,7 +2488,7 @@ input, select, textarea {
 
 		#banner .content {
 			position: relative;
-			background-color: rgba(21, 28, 23, 0.85);
+			background-color: #151c17;
 			background-image: url("images/overlay.png"), url("tptbanner.png");
 			background-position: top left, center center;
 			background-size: auto, 100% 250%;
@@ -2520,11 +2520,7 @@ input, select, textarea {
 				-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
 				transition: border-color .2s ease-in-out, color .2s ease-in-out;
 				color: #b4b7b5;
-
-				
-				/*background: transparent !important;*/
-				
-				
+				background: transparent !important;
 				border: solid 4px #575d59;
 				border-color: rgba(87, 93, 89, 0.35);
 				font-size: 1.5em;
