@@ -72,41 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Container for the tooltip */
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black; /* Visual cue for the user */
-  cursor: help;
-}
 
-/* The actual pop-up text box */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 200px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  border-radius: 6px;
- 
-  /* Position the text box */
-  position: absolute;
-  z-index: 1;
-  bottom: 125%; /* Place it above the word */
-  left: 50%;
-  margin-left: -100px; /* Center it */
-  
-  /* Fade-in effect */
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-/* Show the tooltip on hover */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
 
 
 
